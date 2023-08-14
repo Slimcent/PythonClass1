@@ -7,7 +7,7 @@ def run():
     user_actions(selection)
 
     print()
-    menu_display()
+    run()
 
 
 

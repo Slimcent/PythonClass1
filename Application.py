@@ -6,10 +6,10 @@ def user_actions(user_choice):
 
     while True:
         if user_choice == 1:
-            methods.get_attributes()
+            methods.get_dog_attributes()
             return
         elif user_choice == 2:
-
+            methods.get_person()
             return
         elif user_choice == 3:
 

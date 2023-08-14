@@ -14,6 +14,6 @@ def user_selection(user_choice):
 
 
 def menu_display():
-    menu = user_selection("press 1 for Dog Attributes \nPress 2 for Subtraction \nPress 3 for Multiplication \nPress "
-                          "4 for Division\n")
+    menu = user_selection("press 1 for Dog Attributes \nPress 2 for Person Information \nPress 3 for Multiplication "
+                          "\nPress 4 for Division\n")
     return menu

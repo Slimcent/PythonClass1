@@ -1,12 +1,18 @@
 from dog import Dog
-from dog_methods import Methods
+from person import Person
+from application_methods import Methods
 
 
 class DogOperations:
-    def get_attributes(self):
+    methods_instance = Methods()
+
+    def get_dog_attributes(self):
         Rodger = Dog()
         print(Rodger.firstAttribute)
 
-        # Create an instance of the Methods class
-        methods_instance = Methods()
-        methods_instance.dog_attributes(Rodger)
+        self.methods_instance.dog_attributes(Rodger)
+
+    def get_person(self):
+        Obi = Person("Obinna", "Tenece")
+
+        self.methods_instance.person_info(Obi)
