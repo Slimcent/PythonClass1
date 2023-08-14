@@ -1,3 +1,3 @@
-from Application import run
+from display import run
 
 run()

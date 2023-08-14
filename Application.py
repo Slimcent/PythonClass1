@@ -1,16 +1,21 @@
-from dog import Dog
-from dog_methods import Methods
-from menu import menu_display
+from Operations import DogOperations
 
 
-def run():
-    menu_display()
+def user_actions(user_choice):
+    methods = DogOperations()
 
-    # Rodger = Dog()
-    #
-    # print(Rodger.firstAttribute)
-    #
-    # # Create an instance of the Methods class
-    # methods_instance = Methods()
-    #
-    # methods_instance.dog_attributes(Rodger)
+    while True:
+        if user_choice == 1:
+            methods.get_attributes()
+            return
+        elif user_choice == 2:
+
+            return
+        elif user_choice == 3:
+
+            return
+        else:
+
+            return
+
+
