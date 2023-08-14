@@ -1,13 +1,16 @@
 from dog import Dog
 from dog_methods import Methods
+from menu import menu_display
 
 
 def run():
-    Rodger = Dog()
+    menu_display()
 
-    print(Rodger.firstAttribute)
-
-    # Create an instance of the Methods class
-    methods_instance = Methods()
-
-    methods_instance.dog_attributes(Rodger)
+    # Rodger = Dog()
+    #
+    # print(Rodger.firstAttribute)
+    #
+    # # Create an instance of the Methods class
+    # methods_instance = Methods()
+    #
+    # methods_instance.dog_attributes(Rodger)
